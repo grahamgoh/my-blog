@@ -39,7 +39,8 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -o",
-    "serve": "gatsby build && gatsby serve"
+    "serve": "gatsby build && gatsby serve",
+    "lint": "eslint --ext .js --fix src/"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
